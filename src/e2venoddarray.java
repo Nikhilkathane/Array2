@@ -18,7 +18,8 @@ public class e2venoddarray {
         int[] odd1 =new int[oddcnt];
         int evenind=0;
         int oddind=0;
-        for(int i=0;i<a.length;i++) {
+        for(int i=0;i<a.length;i++)
+        {
             if (a[i] % 2 == 0)
                 even1[evenind++] = a[i];
             else
